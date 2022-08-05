@@ -57,7 +57,16 @@ Race __observerOriginalRace = None ; should always be Nord, but we don't know fo
 
 Function Init()
 	Actor selectedObserver = (CentralQuest as CompanionsHousekeepingScript).GetFavoriteQuestgiver()
+    Actor FarkasSibling = (CentralQuest as CompanionsHousekeepingScript).Farkas.GetActorReference()
+    Actor AelaSibling = (CentralQuest as CompanionsHousekeepingScript).Aela.GetActorReference()
 	
+    ; Avoid getting 
+    if (selectedObserver == FarkasSibling)
+        selectedObserver = FarkasSibling
+    else
+        selectedObserver = AelaSibling
+    endif
+
 	; it's always Farkas now
     ; Remove hardcoded Farkas value
 	; selectedObserver = (CentralQuest as CompanionsHousekeepingScript).Farkas.GetActorReference()
