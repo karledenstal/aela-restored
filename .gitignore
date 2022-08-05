@@ -1,0 +1,6 @@
+meta.ini
+*.ppj
+*.code-workspace
+.vscode
+*.bsa
+*.zip
