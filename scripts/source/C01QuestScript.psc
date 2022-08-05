@@ -59,7 +59,7 @@ Function Init()
 	Actor selectedObserver = (CentralQuest as CompanionsHousekeepingScript).GetFavoriteQuestgiver()
 	
 	; it's always Farkas now
-    ; Remove hardcoded Farkas valuel
+    ; Remove hardcoded Farkas value
 	; selectedObserver = (CentralQuest as CompanionsHousekeepingScript).Farkas.GetActorReference()
 
 	Observer.ForceRefTo(selectedObserver)
