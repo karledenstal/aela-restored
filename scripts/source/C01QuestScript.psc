@@ -284,7 +284,7 @@ Function ObserverTurnBack()
 		endif
 	endif
 
-	Observer.GetActorReference().SetPlayerTeammate(true)
+	Observer.GetActorReference().SetPlayerTeammate(true, false)
 EndFunction
 
 Event OnAnimationEvent(ObjectReference akSource, string asEventName)
