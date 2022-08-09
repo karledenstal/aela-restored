@@ -9,6 +9,10 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
 - [x] Gives you an option to tell Aela you couldn't make it to the Giant in time
 - [x] Minor fix to make it so that Companions leader doesn't wait around the door when you're doing radiant quests.
 
+### Patches
+
+- [x] Experimental Hunterborn patch
+    - [ ] Simple Hunterborn patch (will only accept Fine pelts)
 
 ## Aela Expanded
 
