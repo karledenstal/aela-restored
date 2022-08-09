@@ -8,3 +8,16 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
 - [x] Makes it possible for Aela to be your shield-sibling during Proving Honor
 - [x] Gives you an option to tell Aela you couldn't make it to the Giant in time
 - [x] Minor fix to make it so that she doesn't wait around the door when you're doing radiant quests.
+
+
+## Aela Expanded
+
+- [ ] As a follower, Aela can be asked to transform to a Werewolf
+- [ ] As a follower, can supply the Harbinger (player) with additional quests
+    - [ ] The Hunt of the Beast
+        - Track down a rogue werewolf causing trouble in <Location>
+    - [ ] Gather ingredients
+        - Gather some ingredients that the Companions might need
+    - [ ] So his watch has ended
+        - Track down and kill a high-ranking member of the Vigilant of Stendarr
+- [ ] More location awareness
