@@ -15,7 +15,7 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
 - [ ] As a follower, Aela can be asked to transform to a Werewolf
 - [ ] As a follower, can supply the Harbinger (player) with additional quests
     - [ ] The Hunt of the Beast
-        - Track down a rogue werewolf causing trouble in <Location>
+        - Track down a rogue werewolf causing trouble in < Location >
     - [ ] Gather ingredients
         - Gather some ingredients that the Companions might need
     - [ ] So his watch has ended
