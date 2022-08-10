@@ -27,6 +27,7 @@ Race Property WerewolfRace auto
 ReferenceAlias Property FollowerAlias auto
 
 Race Property AelaRace auto
+Quest Property HuntTogether auto
 
 bool WerewolfFormAvailable = true
 bool property ShouldShiftBack = false auto
@@ -36,7 +37,7 @@ GlobalVariable Property IsInWereForm auto
 Function AwakenBeast(ObjectReference FollowerRef)
     Actor FollowerActor = FollowerRef as Actor
     
-    if (WerewolfFormAvailable && IsInWereForm.GetValueInt() < 1)
+    if (WerewolfFormAvailable && IsInWereForm.GetValueInt() == 0)
         FollowerActor.StopCombat()
         FollowerActor.GetActorBase().SetInvulnerable(true)
 
@@ -62,12 +63,22 @@ Function SleepLittleBeast(ObjectReference FollowerRef)
 
         IsInWereForm.SetValue(0)
         FollowerActor.EvaluatePackage()
+        WerewolfFormAvailable = true
     endif
 EndFunction
 
 Function PlayerShiftedToDefaultForm()
     if IsInWereForm.GetValueInt() < 1 && PlayerRef.GetRace() != WerewolfRace
+        HuntTogether.Stop()
         Actor FollowerActor = FollowerAlias.GetActorRef()
         SleepLittleBeast(FollowerActor)
+    endif
+EndFunction
+
+Function PlayerShiftedIntoWerewolf()
+    if IsInWereForm.GetValueInt() == 0 && PlayerRef.GetRace() == WerewolfRace
+        HuntTogether.Start()
+        Actor FollowerActor = FollowerAlias.GetActorRef()
+        AwakenBeast(FollowerActor)
     endif
 EndFunction
