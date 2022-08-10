@@ -30,3 +30,6 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
         - Increases movement speed by 5%
     - [ ] Eye of the Hunter
         - Increases critical chance by 5%
+- [ ] Set combat style
+    - [ ] Prefer Ranged
+    - [ ] Prefer close-combat
