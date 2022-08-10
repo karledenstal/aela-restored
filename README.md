@@ -25,3 +25,8 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
     - [ ] So his watch has ended
         - Track down and kill a high-ranking member of the Vigilant of Stendarr
 - [ ] More location awareness
+- [ ] Get buffs for traveling with Aela
+    - [ ] Pathfinder
+        - Increases movement speed by 5%
+    - [ ] Eye of the Hunter
+        - Increases critical chance by 5%
