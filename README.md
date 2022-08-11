@@ -17,7 +17,7 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
 ## Aela Expanded
 
 - [x] As a follower, Aela can be asked to transform to a Werewolf
-    - [ ] Aela will transform with player.
+    - [x] Aela will transform with player.
     - [x] Tell Aela to revert back to human form.
 - [ ] As a follower, can supply the Harbinger (player) with additional quests
     - [ ] The Hunt of the Beast
