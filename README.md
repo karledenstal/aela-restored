@@ -17,8 +17,8 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
 ## Aela Expanded
 
 - [x] As a follower, Aela can be asked to transform to a Werewolf
-    - [ ] If player transforms, Aela will also transform.
-    - [ ] Tell Aela to revert back to human form.
+    - [ ] Aela will transform with player.
+    - [x] Tell Aela to revert back to human form.
 - [ ] As a follower, can supply the Harbinger (player) with additional quests
     - [ ] The Hunt of the Beast
         - Track down a rogue werewolf causing trouble in < Location >
@@ -29,6 +29,7 @@ Restores Animal Pelt Collection radiant quest you can get from Aela as well as m
     - [ ] So his watch has ended
         - Track down and kill a high-ranking member of the Vigilant of Stendarr
 - [ ] More location awareness
+- [ ] Add "Relax" dialogue option
 - [ ] Get buffs for traveling with Aela
     - [ ] Pathfinder
         - Increases movement speed by 5%
