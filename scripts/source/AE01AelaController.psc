@@ -84,3 +84,11 @@ Function PlayerShiftedIntoWerewolf()
         Debug.Notification("Something not working")
     endif
 EndFunction
+
+; Relax option
+Function AelaTheChiller(ObjectReference FollowerRef)
+    Actor FollowerActor = FollowerRef as Actor
+
+    ; Just set her to wait for now
+    FollowerActor.SetActorValue("WaitingForPlayer", 1)
+EndFunction
